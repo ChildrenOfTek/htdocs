@@ -1,0 +1,3 @@
+function ClockController(model, view){
+
+}

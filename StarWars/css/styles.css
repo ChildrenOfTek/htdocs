@@ -1,0 +1,42 @@
+body{
+	background-image: url("../img/stars.jpg");
+	
+}
+
+img{
+
+	border-radius: 30px;
+
+}
+
+#luke{
+	float: right;
+	margin-top: 120px;
+	margin-right: 120px;
+	position:relative;
+}
+
+#darthVader{
+	margin-top: 120px;
+	margin-left: 120px;
+	position:relative;
+}
+
+#leia{
+	margin-top: 120px;
+	margin-left: 120px;
+	position:relative;
+}
+
+#yoda{
+	margin-top: 120px;
+	margin-right: 120px;
+	float: right;
+	position:relative;
+}
+
+label{
+	color:#eee ;
+	font-size: 2em;
+}
+
