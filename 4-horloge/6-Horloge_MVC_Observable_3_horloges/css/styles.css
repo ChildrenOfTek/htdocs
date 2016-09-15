@@ -1,0 +1,13 @@
+button{
+	font-size: 0.5em;
+}
+
+main{
+	position: absolute;
+	left: calc(50% - 250px);
+	top: calc(50% - 100px);
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	font-size: 5em;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Observer Design Pattern Exemple </title>
+  <script type="text/javascript" src="js/jquery-1.6.3.js"></script>
+  <script type="text/javascript" src="js/libs/observable.js"></script>
+  <script type="text/javascript" src="js/models/observer.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/models/darthVader.observer.js"></script>
+  <script type="text/javascript" src="js/models/luke.observer.js"></script>
+    <script type="text/javascript" src="js/models/leia.observer.js"></script>
+    <script type="text/javascript" src="js/models/yoda.observer.js"></script>
+  
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" >
+<link rel="stylesheet" href="css/styles.css" >  
+  <meta charset="utf-8">
+</head>
+<body>
+  <label class="dialog"> Darth Vader et Luke Skywalker sont face à face, et c'est tendu. La princesse Leia communique par télépathie avec Luke pendant qu'elle est au chaud dans le Faucon Millenium, elle a même pas payé son billet d'ailleurs.
+  Yoda,planqué dans ses marais, se permet de faire des réflexions que personne n'entend, et c'est pas sur qu'il porte son peignoir...</label>
+    
+
+    <div id="luke">
+        <label class="dialog"></label>
+        <button class="parler lukeA btn btn-warning" style="display:none">Crier</button>
+        <img src="img/luke.jpg" class="lukeImg" title="Luke Skywalker" alt="Luke Skywalker"/>
+        <button class="def lukeB btn btn-warning" style="display:none">Se defendre</button>
+    </div>
+
+    <div id="darthVader"> 
+          <img src="img/darthVader.jpg" class="darthVaderImg" title="Darth Vader" alt="Darth Vader"/>
+
+          <button class="parler darthVaderA btn btn-info">Parler</button>
+         
+          <label class="dialog"></label>
+          <button class="avancer darthVaderB btn btn-primary" style="display:none">Avancer</button>
+        <button class="duel darthVaderC btn btn-primary" style="display:none">Provoquer Luke en duel</button>
+    </div>
+    <div id="leia">
+        <img src="img/leia.jpg" class="leiaImg" title="Leia Skywalker" alt="Leia Skywalker"/>
+      <button class="telepathe leia btn btn-warning" style="display:none">Intervient</button>
+      <label class="dialog"></label>
+    </div>
+
+    <div id="yoda">
+        <img src="img/yoda.jpg" class="yodaImg" title="Maitre Yoda" alt="Maitre Yoda"/>   
+      <label class="dialog"></label>
+    </div>
+
+</body>
+</html>

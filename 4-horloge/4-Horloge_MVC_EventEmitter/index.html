@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Horloge EventEmitter</title>
+  <style>span{font-size: 4em;}</style>
+</head>
+<body>
+  <div id="clock">
+    <span id="hour"></span> : <span id="minute"></span> : <span id="second"></span>
+    <hr>
+    <button id="hPlus">h +</button>
+    <button id="hMinus">h -</button>
+    <button id="mPlus">m +</button>
+    <button id="mMinus">m -</button>
+    <button id="sPlus">s +</button>
+    <button id="sMinus">s -</button>
+  </div>
+  <script src="lib/eventEmitter.js"></script>
+  <script src="model/model.js"></script>
+  <script src="controller/controller.js"></script>
+  <script src="view/view.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
